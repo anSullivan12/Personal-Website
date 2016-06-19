@@ -3,7 +3,7 @@
 
 $bp-mobile: "(max-width: 450px)";
 $bp-tablet: "(max-width: 768px)";
-$bp-smdesktop: "(max-width: 1145px)";
+$bp-smdesktop: "(max-width: 1145px)"; 
 
 /* ====== BRAND ====== */
 $primary-color: #2C3E50;
@@ -214,7 +214,7 @@ footer {
 	.fa-twitter:hover {color: #1DA1F2;}
 	.fa-linkedin:hover {color: #2469A3;}
 	.fa-github-alt:hover {color: #582D7B;}
-	.fa-dribbble:hover {color: #EA4C89;}
+	.fa-codepen:hover {color: #000;}
 	.fa-instagram:hover {color: #125688;}
 
 .nav-small {
