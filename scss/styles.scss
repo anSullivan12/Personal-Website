@@ -3,7 +3,7 @@
 
 $bp-mobile: "(max-width: 450px)";
 $bp-tablet: "(max-width: 768px)";
-$bp-smdesktop: "(max-width: 1145px)"; 
+$bp-smdesktop: "(max-width: 1145px)";
 
 /* ====== BRAND ====== */
 $primary-color: #2C3E50;
@@ -40,7 +40,7 @@ header, form, .form-content, input[type=text], input[type=email], textarea, inpu
 
 /* ====== CONTENT WIDTH 50% ====== */
 
-.about, .contact, .fourOhfour, .footer, .contact-header-content {
+.about, .contact, .fourOhfour, .footer, .secondary-header-content, .resume {
 	width: 50%;
 	@media only screen and #{$bp-tablet} {
 		width: 70%;
@@ -49,7 +49,7 @@ header, form, .form-content, input[type=text], input[type=email], textarea, inpu
 
 /* ====== CENTERING ====== */
 
-.fourOhfour-gif, .contact-h1, form, .contact-header-content, .about, .contact, .fourOhfour, .footer, .about-header {
+.fourOhfour-gif, .contact-h1, form, .secondary-header-content, .about, .contact, .fourOhfour, .footer, .about-header {
 	margin: 0 auto;
 }
 
@@ -76,7 +76,7 @@ header {
 		height: 250px;
 	}
 }
-.contact-header {
+.secondary-header {
 	height: auto;
 }
 	.about-header img {
@@ -89,7 +89,7 @@ header {
 			display: none;
 		}
 	}
-	
+
 
 /* ====== TYPOGRAPHY ====== */
 .about-h1, .contact-h2 {
@@ -152,7 +152,7 @@ input[type=text], textarea, input[type=submit], input[type=email]  {
 input[type=text], input[type=email], {
 	padding: 16px;
 	margin-bottom: 16px;
-	font-family: $font-stack; 
+	font-family: $font-stack;
 	margin: 0.5em 0 0 0;
 }
 label {
