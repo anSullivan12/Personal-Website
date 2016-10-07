@@ -1,0 +1,41 @@
+.nav-large {
+  margin-top: 65px;
+  text-align: center;
+   a {
+    margin-left: 1.2em;
+    color: $primary-color;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+.nav-small {
+  display: inline-block;
+  float: right;
+  margin-top: 1.2em;
+  a {
+    margin-left: .875em;
+  }
+  @media #{$small-query} {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 1em;
+  }
+}
+header .nav-small a {
+  color: $secondary-color;
+}
+footer .nav-small a {
+  color: $primary-color;
+}
+
+// hovers for icons
+.fa-envelope:hover {color: #C27E47;}
+.fa-file:hover {color: #F3852D;}
+.fa-twitter:hover {color: #1DA1F2;}
+.fa-linkedin:hover {color: #2469A3;}
+.fa-github-alt:hover {color: #582D7B;}
+.fa-codepen:hover {color: #000;}
+.fa-instagram:hover {color: #125688;}

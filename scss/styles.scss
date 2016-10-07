@@ -1,9 +1,12 @@
 @import 'reset';
 @import 'variables';
-@import 'parsley';
-@import 'resume';
-@import 'footer';
 @import 'typography';
+@import 'nav';
+@import 'header';
+@import 'footer';
+@import 'resume';
+@import 'contact';
+@import '404';
 
 /* ====== GLOBAL ====== */
 * {
@@ -14,9 +17,6 @@ body {
 	font-family: $font-stack;
 }
 
-a {text-decoration: none;}
-a:hover {text-decoration: underline;}
-
 /* ====== WIDTH 100% ====== */
 
 header, form, .form-content, input[type=text], input[type=email], textarea, input[type=submit], footer  {
@@ -25,7 +25,7 @@ header, form, .form-content, input[type=text], input[type=email], textarea, inpu
 
 /* ====== CONTENT WIDTH 50% ====== */
 
-.about, .contact, .fourOhfour, .footer, .secondary-header-content, .resume {
+.about, .contact, .secondary-header-content, .resume {
 	width: 50%;
 	@media only screen and #{$bp-tablet} {
 		width: 70%;
@@ -34,130 +34,12 @@ header, form, .form-content, input[type=text], input[type=email], textarea, inpu
 
 /* ====== CENTERING ====== */
 
-.fourOhfour-gif, .contact-h1, form, .secondary-header-content, .about, .contact, .fourOhfour, .footer, .about-header {
+.contact-h1, form, .secondary-header-content, .about, .contact, .about-header {
 	margin: 0 auto;
 }
 
 /* ====== MARGIN TOP 65px ====== */
 
-.about, .contact, .fourOhfour, .nav-large {
+.about, .contact {
 	margin-top: 65px;
-}
-
-/* ====== LAYOUT ====== */
-header {
-	background-color: $primary-color;
-	color: $secondary-color;
-	font-weight: 300;
-	@media only screen and #{$bp-tablet} {
-		padding-bottom: 1.5em;
-		height: auto;
-	}
-}
-.about-header {
-	height: 200px;
-	width: 70%;
-	@media only screen and #{$bp-smdesktop} {
-		height: 250px;
-	}
-}
-.secondary-header {
-	height: auto;
-}
-	.about-header img {
-		width: 160px;
-		height: 160px;
-		border-radius: 50%;
-		margin: 25px 20px 0 0;
-		float: left;
-		@media only screen and #{$bp-tablet} {
-			display: none;
-		}
-	}
-
-
-
-
-/* ====== CONTACT ====== */
-input[type=text], textarea, input[type=submit], input[type=email]  {
-	font-size: 1rem;
-}
-input[type=text], input[type=email], {
-	padding: 16px;
-	margin-bottom: 16px;
-	font-family: $font-stack;
-	margin: 0.5em 0 0 0;
-}
-label {
-	margin: 1.5em 0 0 0;
-	display: block;
-}
-textarea {
-	font-family: $font-stack;
-	display: block;
-	height: 125px;
-	margin: 0.5em 0 0 0;
-	padding: 1em;
-	border: none;
-}
-input[type=submit] {
-	background-color: $primary-color;
-	color: $secondary-color;
-	border: none;
-	font-family: $font-stack;
-	border-radius: 3px;
-	padding: 1em 0;
-	margin-top: 1.5em;
-}
-
-/* ====== 404 ====== */
-.fourOhfour-gif {
-	display: block;
-	margin-bottom: 15px;
-}
-
-
-/* ====== NAV ====== */
-.nav-large {
-	text-align: center;
-}
-.nav-large a {
-	margin-left: 20px;
-	color: $primary-color;
-}
-	.nav-large a:first-child {
-		margin-left:0;
-	}
-	/* HOVERS FOR ICONS */
-	.fa-envelope:hover {color: #C27E47;}
-	.fa-file:hover {color: #F3852D;}
-	.fa-twitter:hover {color: #1DA1F2;}
-	.fa-linkedin:hover {color: #2469A3;}
-	.fa-github-alt:hover {color: #582D7B;}
-	.fa-codepen:hover {color: #000;}
-	.fa-instagram:hover {color: #125688;}
-
-.nav-small {
-	display: inline-block;
-	float: right;
-	@media only screen and #{$bp-mobile} {
-		width: 100%;
-		display: block;
-		text-align: center;
-		margin-top: 1em;
-	}
-}
-header .nav-small a {
-	color: $secondary-color;
-	margin-left: 10px;
-}
-	header .nav-small {
-		margin-top: 30px;
-	}
-	footer .nav-small {
-		margin-top: 0;
-	}
-footer .nav-small a {
-	color: $primary-color;
-	margin-left: 10px;
 }

@@ -1,0 +1,34 @@
+@import 'parsley';
+
+
+/* ====== CONTACT ====== */
+input[type=text], textarea, input[type=submit], input[type=email]  {
+  font-size: 1rem;
+}
+input[type=text], input[type=email], {
+  padding: 16px;
+  margin-bottom: 16px;
+  font-family: $font-stack;
+  margin: 0.5em 0 0 0;
+}
+label {
+  margin: 1.5em 0 0 0;
+  display: block;
+}
+textarea {
+  font-family: $font-stack;
+  display: block;
+  height: 125px;
+  margin: 0.5em 0 0 0;
+  padding: 1em;
+  border: none;
+}
+input[type=submit] {
+  background-color: $primary-color;
+  color: $secondary-color;
+  border: none;
+  font-family: $font-stack;
+  border-radius: 3px;
+  padding: 1em 0;
+  margin-top: 1.5em;
+}

@@ -1,0 +1,29 @@
+header {
+  background-color: $primary-color;
+  color: $secondary-color;
+  font-weight: 300;
+  @media only screen and #{$bp-tablet} {
+    padding-bottom: 1.5em;
+    height: auto;
+  }
+}
+.about-header {
+  height: 200px;
+  width: 70%;
+  @media only screen and #{$bp-smdesktop} {
+    height: 250px;
+  }
+}
+.secondary-header {
+  height: auto;
+}
+  .about-header img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin: 25px 20px 0 0;
+    float: left;
+    @media only screen and #{$bp-tablet} {
+      display: none;
+    }
+  }
