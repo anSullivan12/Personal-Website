@@ -1,0 +1,28 @@
+// colors
+$primary-color: #2C3E50; // currently navy blue
+$secondary-color: #ECF0F1; // currently off-white
+$font-color: #333333; // currently slate
+
+// fonts
+$serif: "Georgia", serif;
+$sans-serif: "Raleway", Helvetica, Arial, sans-serif;
+$monospace: "Courier", monospace;
+$font-stack: 'Raleway', Helvetica, Arial, sans-serif;
+
+// media queries
+$iphone5-width: 320px;
+$small-cutoff: 760px;
+$large-cutoff: 1100px;
+
+$large-query: "only screen and (min-width: #{$large-cutoff + 1})";
+$medium-query: "only screen and (max-width: #{$large-cutoff})";
+$small-query: "only screen and (max-width: #{$small-cutoff})";
+$iphon5-query: "only and (max-width: #{$iphone5-width})";
+
+$large-to-small-query-range: "only screen and (min-width: #{$small-cutoff + 1})";
+$medium-query-range: "only screen and (min-width: #{$small-cutoff + 1}) and (max-width: #{$large-cutoff})";
+
+// old media queries that need deleted after refactoring
+$bp-mobile: "(max-width: 450px)";
+$bp-tablet: "(max-width: 768px)";
+$bp-smdesktop: "(max-width: 1145px)";
