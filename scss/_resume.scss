@@ -19,15 +19,42 @@
       margin-bottom: 1em;
       width: 100%;
     }
-    .company {
-      display: inline;
-      &:after {
-        content: " • "
+    section {
+      border-bottom: 1px solid $border-color;
+      margin-bottom: 1.2em;
+      &:last-child {
+        border-bottom: none;
+        margin-bottom: 3em;
       }
-    }
-    .date {
-      display: inline;
-      font-size: .875rem;
+      .company {
+        display: inline;
+        &:after {
+          content: " • "
+        }
+      }
+      .date {
+        display: inline;
+        font-size: .875rem;
+      }
+      .title {
+        font-size: 1rem;
+        margin-bottom: .2em;
+      }
+      .company-desc {
+        font-size: .975rem;
+        line-height: 1.2;
+        margin-bottom: .6em;
+      }
+      .company-jobs {
+        ul {
+          list-style: initial;
+          margin: 0 0 1.2em 2em;
+          li {
+            font-size: .975rem;
+            line-height: 1.3;
+          }
+        }
+      }
     }
   }
   .right-rail {
