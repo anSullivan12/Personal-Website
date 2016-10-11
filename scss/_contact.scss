@@ -3,7 +3,7 @@
 .contact {
   margin: 65px auto 0 auto;
   width: 50%;
-  @media only screen and #{$bp-tablet} {
+  @media #{$medium-query} {
     width: 70%;
   }
   h1 {

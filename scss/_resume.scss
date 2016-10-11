@@ -1,0 +1,38 @@
+.resume {
+  margin: 65px auto 0 auto;
+  width: 50%;
+  @media #{$medium-query} {
+    width: 70%;
+  }
+  h1 {
+    color: $primary-color;
+    display: block;
+    margin-top: 0;
+  }
+  .main-col {
+    float: left;
+    width: 68%;
+    h2 {
+      border-bottom: 1px solid $border-color;
+      color: $primary-color;
+      font-weight: 600;
+      margin-bottom: 1em;
+      width: 100%;
+    }
+    .company {
+      display: inline;
+      &:after {
+        content: " • "
+      }
+    }
+    .date {
+      display: inline;
+      font-size: .875rem;
+    }
+  }
+  .right-rail {
+    float: right;
+    margin-left: 2%;
+    width: 30%;
+  }
+}

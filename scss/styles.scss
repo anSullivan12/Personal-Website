@@ -8,7 +8,7 @@
 @import 'contact';
 @import '404';
 
-/* ====== GLOBAL ====== */
+// global styling
 * {
 	box-sizing: border-box;
 }
@@ -17,23 +17,12 @@ body {
 	font-family: $font-stack;
 }
 
-/* ====== CONTENT WIDTH 50% ====== */
-
-.about, .secondary-header-content, .resume {
-	width: 50%;
-	@media only screen and #{$bp-tablet} {
-		width: 70%;
-	}
-}
-
-/* ====== CENTERING ====== */
-
-.secondary-header-content, .about, .about-header {
-	margin: 0 auto;
-}
-
-/* ====== MARGIN TOP 65px ====== */
+// index page styles
 
 .about {
-	margin-top: 65px;
+	margin: 65px auto 0 auto;
+	width: 50%;
+	@media #{$medium-query} {
+		width: 70%;
+	}
 }

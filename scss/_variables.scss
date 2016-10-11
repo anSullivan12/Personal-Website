@@ -2,6 +2,7 @@
 $primary-color: #2C3E50; // currently navy blue
 $secondary-color: #ECF0F1; // currently off-white
 $font-color: #333333; // currently slate
+$border-color: #c7ced1; // shade of white
 
 // fonts
 $serif: "Georgia", serif;
@@ -21,8 +22,3 @@ $iphon5-query: "only and (max-width: #{$iphone5-width})";
 
 $large-to-small-query-range: "only screen and (min-width: #{$small-cutoff + 1})";
 $medium-query-range: "only screen and (min-width: #{$small-cutoff + 1}) and (max-width: #{$large-cutoff})";
-
-// old media queries that need deleted after refactoring
-$bp-mobile: "(max-width: 450px)";
-$bp-tablet: "(max-width: 768px)";
-$bp-smdesktop: "(max-width: 1145px)";

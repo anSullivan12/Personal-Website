@@ -9,6 +9,7 @@ header {
   }
   .about-header {
     height: 200px;
+    margin: 0 auto;
     width: 70%;
     img {
       width: 160px;
@@ -25,5 +26,8 @@ header {
     height: 3em;
     margin: 0 auto;
     width: 50%;
+    @media #{$medium-query} {
+      width: 70%;
+    }
   }
 }
