@@ -3,18 +3,24 @@ footer {
   margin-top: 100px;
   height: 150px;
   padding-top: 50px;
-  p {
-    display: inline-block;
-    @media #{$small-query} {
-      width: 100%;
-      text-align: center;
-      }
-  }
+  width: 100%;
   .footer {
     width: 50%;
     margin: 0 auto;
     @media #{$medium-query} {
       width: 70%;
+    }
+    p {
+      display: inline-block;
+      font-size: 1rem;
+      margin: 0;
+      @media #{$small-query} {
+        width: 100%;
+        text-align: center;
+      }
+    }
+    .nav-small {
+      margin-top: 0;
     }
   }
 }
