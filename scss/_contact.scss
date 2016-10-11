@@ -1,34 +1,54 @@
 @import 'parsley';
 
+.contact {
+  margin: 65px auto 0 auto;
+  width: 50%;
+  @media only screen and #{$bp-tablet} {
+    width: 70%;
+  }
+  h1 {
+    color: $primary-color;
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin: 0;
+  }
+  form {
+    margin: 0 auto;
+    width: 100%;
+    .form-content {
+      margin-top: 2.5em;
+      width: 100%;
+      input {
+        font-family: $font-stack;
+        font-size: 1rem;
+        margin: 0.5em 0 1em 0;
+        padding: 1em;
+        width: 100%;
+        &[type="submit"] {
+          background-color: $primary-color;
+          border: none;
+          border-radius: 3px;
+          color: $secondary-color;
+          font-family: $font-stack;
+          font-size: 1rem;
+          margin-top: 1.5em;
+        }
+      }
+      textarea {
+        border: none;
+        display: block;
+        font-family: $font-stack;
+        font-size: 1rem;
+        height: 125px;
+        margin: 0.5em 0 0 0;
+        padding: 1em;
+        width: 100%;
+      }
+      label {
+        display: block;
+        margin: 1.5em 0 0 0;
+      }
+    }
+  }
+}
 
-/* ====== CONTACT ====== */
-input[type=text], textarea, input[type=submit], input[type=email]  {
-  font-size: 1rem;
-}
-input[type=text], input[type=email], {
-  padding: 16px;
-  margin-bottom: 16px;
-  font-family: $font-stack;
-  margin: 0.5em 0 0 0;
-}
-label {
-  margin: 1.5em 0 0 0;
-  display: block;
-}
-textarea {
-  font-family: $font-stack;
-  display: block;
-  height: 125px;
-  margin: 0.5em 0 0 0;
-  padding: 1em;
-  border: none;
-}
-input[type=submit] {
-  background-color: $primary-color;
-  color: $secondary-color;
-  border: none;
-  font-family: $font-stack;
-  border-radius: 3px;
-  padding: 1em 0;
-  margin-top: 1.5em;
-}

@@ -17,15 +17,9 @@ body {
 	font-family: $font-stack;
 }
 
-/* ====== WIDTH 100% ====== */
-
-form, .form-content, input[type=text], input[type=email], textarea, input[type=submit]  {
-	width: 100%;
-}
-
 /* ====== CONTENT WIDTH 50% ====== */
 
-.about, .contact, .secondary-header-content, .resume {
+.about, .secondary-header-content, .resume {
 	width: 50%;
 	@media only screen and #{$bp-tablet} {
 		width: 70%;
@@ -34,12 +28,12 @@ form, .form-content, input[type=text], input[type=email], textarea, input[type=s
 
 /* ====== CENTERING ====== */
 
-.contact-h1, form, .secondary-header-content, .about, .contact, .about-header {
+.secondary-header-content, .about, .about-header {
 	margin: 0 auto;
 }
 
 /* ====== MARGIN TOP 65px ====== */
 
-.about, .contact {
+.about {
 	margin-top: 65px;
 }
