@@ -1,12 +1,12 @@
 footer {
-  border-top: 1px solid $orange;
+  border-top: 1px solid $border-color;
   clear: both;
   margin-top: 100px;
   height: 150px;
   padding-top: 50px;
   width: 100%;
   .footer {
-    width: 50%;
+    width: 58%;
     margin: 0 auto;
     @media #{$medium-query} {
       width: 70%;
