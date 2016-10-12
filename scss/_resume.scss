@@ -6,7 +6,7 @@
   }
   .main-col {
     float: left;
-    width: 68%;
+    width: 63%;
     h2 {
       border-bottom: 1px solid $border-color;
       color: $green;
@@ -56,13 +56,25 @@
   .right-rail {
     float: right;
     margin-left: 2%;
-    width: 30%;
+    width: 35%;
     section {
-      h3 {
-        background-color: $accent-color;
-        color: $secondary-color;
-        padding: 1em 0;
-        width: 100%;
+      p {
+        font-size: .975rem;
+        margin-bottom: .2em;
+      }
+      .date {
+        font-size: .875rem;
+      }
+      .subhead {
+        margin-top: 1em;
+      }
+      ul {
+        color: $white;
+        margin: 0 0 1.2em .75em;
+        li {
+          font-size: .975rem;
+          line-height: 1.3;
+        }
       }
     }
   }
