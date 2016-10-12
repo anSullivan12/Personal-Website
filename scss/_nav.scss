@@ -3,7 +3,7 @@
   text-align: center;
    a {
     margin-left: 1.2em;
-    color: $primary-color;
+    color: $orange;
     &:first-child {
       margin-left: 0;
     }
@@ -25,15 +25,15 @@
   }
 }
 header .nav-small a {
-  color: $secondary-color;
+  color: $slate;
 }
 footer .nav-small a {
-  color: $primary-color;
+  color: $blue;
 }
 
 // hovers for icons
-.fa-envelope:hover {color: #C27E47;}
-.fa-file:hover {color: #F3852D;}
+.fa-envelope:hover {color: $green;}
+.fa-file:hover {color: $yellow;}
 .fa-twitter:hover {color: #1DA1F2;}
 .fa-linkedin:hover {color: #2469A3;}
 .fa-github-alt:hover {color: #582D7B;}

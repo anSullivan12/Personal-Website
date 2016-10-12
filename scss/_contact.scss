@@ -7,7 +7,7 @@
     width: 70%;
   }
   h1 {
-    color: $primary-color;
+    color: $orange;
     font-size: 1.75rem;
     font-weight: 600;
     margin: 0;
@@ -18,6 +18,9 @@
     .form-content {
       margin-top: 2.5em;
       width: 100%;
+      label {
+        color: $font-color;
+      }
       input {
         font-family: $font-stack;
         font-size: 1rem;
@@ -25,12 +28,13 @@
         padding: 1em;
         width: 100%;
         &[type="submit"] {
-          background-color: $primary-color;
+          background-color: $blue;
           border: none;
           border-radius: 3px;
-          color: $secondary-color;
+          color: $slate;
           font-family: $font-stack;
           font-size: 1rem;
+          font-weight: 600;
           margin-top: 1.5em;
         }
       }
