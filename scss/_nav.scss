@@ -27,15 +27,12 @@
 header .nav-small a {
   color: $slate;
 }
-footer .nav-small a {
-  color: $blue;
-}
 
 // hovers for icons
-.fa-envelope:hover {color: $green;}
+.fa-envelope:hover {color: $white;}
 .fa-file:hover {color: $yellow;}
 .fa-twitter:hover {color: #1DA1F2;}
 .fa-linkedin:hover {color: #2469A3;}
-.fa-github-alt:hover {color: #582D7B;}
+.fa-github-alt:hover {color: #A485D6;}
 .fa-codepen:hover {color: #000;}
 .fa-instagram:hover {color: #125688;}
