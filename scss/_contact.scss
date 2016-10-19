@@ -1,0 +1,52 @@
+@import 'parsley';
+
+.contact {
+  margin: 65px auto 0 auto;
+  width: 58%;
+  @media #{$medium-query} {
+    width: 70%;
+  }
+  form {
+    margin: 0 auto;
+    width: 100%;
+    .form-content {
+      margin-top: 2.5em;
+      width: 100%;
+      label {
+        color: $font-color;
+      }
+      input {
+        font-family: $font-stack;
+        font-size: 1rem;
+        margin: 0.5em 0 1em 0;
+        padding: 1em;
+        width: 100%;
+        &[type="submit"] {
+          background-color: $blue;
+          border: none;
+          border-radius: 3px;
+          color: $slate;
+          font-family: $font-stack;
+          font-size: 1rem;
+          font-weight: 600;
+          margin-top: 1.5em;
+        }
+      }
+      textarea {
+        border: none;
+        display: block;
+        font-family: $font-stack;
+        font-size: 1rem;
+        height: 125px;
+        margin: 0.5em 0 0 0;
+        padding: 1em;
+        width: 100%;
+      }
+      label {
+        display: block;
+        margin: 1.5em 0 0 0;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,27 @@
+// colors
+$slate: #3f2e4a;
+$white: #fff;
+$orange: #F49A5B; // one of the main colors
+$blue: #3DB8B8; // one of the main colors
+$yellow: #EDE480;
+$font-color: #{$white};
+$border-color: #777; // currently dove gray
+
+// fonts
+$serif: "Georgia", serif;
+$sans-serif: "Raleway", Helvetica, Arial, sans-serif;
+$monospace: "Courier", monospace;
+$font-stack: 'Raleway', Helvetica, Arial, sans-serif;
+
+// media queries
+$iphone5-width: 320px;
+$small-cutoff: 760px;
+$large-cutoff: 1100px;
+
+$large-query: "only screen and (min-width: #{$large-cutoff + 1})";
+$medium-query: "only screen and (max-width: #{$large-cutoff})";
+$small-query: "only screen and (max-width: #{$small-cutoff})";
+$iphon5-query: "only and (max-width: #{$iphone5-width})";
+
+$large-to-small-query-range: "only screen and (min-width: #{$small-cutoff + 1})";
+$medium-query-range: "only screen and (min-width: #{$small-cutoff + 1}) and (max-width: #{$large-cutoff})";

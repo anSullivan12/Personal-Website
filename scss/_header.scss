@@ -1,0 +1,33 @@
+header {
+  background-color: $blue;
+  color: $slate;
+  font-weight: 300;
+  width: 100%;
+  @media #{$medium-query} {
+    height: auto;
+    padding-bottom: 1.5em;
+  }
+  .about-header {
+    height: 200px;
+    margin: 0 auto;
+    width: 70%;
+    img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      margin: 25px 20px 0 0;
+      float: left;
+      @media #{$medium-query} {
+        display: none;
+      }
+    }
+  }
+  .secondary-header {
+    height: 3em;
+    margin: 0 auto;
+    width: 58%;
+    @media #{$medium-query} {
+      width: 70%;
+    }
+  }
+}

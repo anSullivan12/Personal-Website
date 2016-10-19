@@ -1,0 +1,11 @@
+.fourOhfour {
+  margin: 0 auto;
+  width: 58%;
+  @media #{$medium-query} {
+    width: 70%;
+  }
+  .fourOhfour-gif {
+    display: block;
+    margin: 0 auto 1em auto;
+  }
+}
