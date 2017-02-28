@@ -27,16 +27,16 @@
     <h1>Contact</h1>
     <p>I love meeting new people and would love to meet you. If you'd like to discuss code, design, freelance opportunities or just to chat, please fill out the form below and I'll respond when I can.</p>
     <p>I tried to keep this form short and sweet, so all fields are required.</p>
-    <form method="post" action="https://formspree.io/ashley@ashleysullivan.co" enctype="text/plain" data-parsley-validate>
+    <form method="post" action="https://formspree.io/ashley@ashleysullivan.co" data-parsley-validate>
       <div class="form-content">
         <label for="Name">Name:</label>
-        <input type="text" name="Name" placeholder="Your Name" id="Name" data-parsley-required="true"></input>
+        <input name="name" type="text" placeholder="Your Name" id="Name" data-parsley-required="true"></input>
         <label for="Email">Email:</label>
-        <input type="email" name="Email" placeholder="Email Address" id="Email" data-parsley-required="true" data-parsley-type="email"></input>
+        <input name="_replyto" type="email" placeholder="Email Address" id="Email" data-parsley-required="true" data-parsley-type="email"></input>
         <label for="Subject">Subject:</label>
-        <input type="text" name="Subject" placeholder="What do you want to talk about?" id="Subject" data-parsley-required="true"></input>
+        <input name="_subject" type="text" placeholder="What do you want to talk about?" id="Subject" data-parsley-required="true"></input>
         <label for="Message">Message:</label>
-        <textarea name="Message" cols="30" rows="10" placeholder="Tell me what you're thinking." id="Message" data-parsley-required="true"></textarea>
+        <textarea name="message" cols="30" rows="10" placeholder="Tell me what you're thinking." id="Message" data-parsley-required="true"></textarea>
         <input type="submit">
       </div>
     </form>
