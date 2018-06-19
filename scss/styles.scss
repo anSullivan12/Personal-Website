@@ -12,28 +12,18 @@
 }
 body {
   background-color: $bkg;
-  font-family: $font-stack;
+  font-family: $sans-serif;
+  font-size: 16px;
 }
 
-// index page styles
-.about-header {
-  h1 {
-    color: $white;
-    font-size: 2rem;
-    line-height: 1.3;
-    margin: 60px 0 0 0;
-    display: inline-block;
-    @media #{$medium-query} {
-      width: 100%;
-      text-align: center;
-      margin-top: .5em;
-    }
-  }
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
 }
-.about {
-  margin: 65px auto 0 auto;
-  width: 58%;
-  @media #{$medium-query} {
-    width: 70%;
-  }
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
 }
+
