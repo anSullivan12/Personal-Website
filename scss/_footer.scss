@@ -1,27 +1,31 @@
 footer {
-  border-top: 1px solid $border-color;
-  clear: both;
   margin-top: 100px;
   height: 150px;
   padding-top: 50px;
-  width: 100%;
-  .footer {
-    width: 58%;
-    margin: 0 auto;
-    @media #{$medium-query} {
-      width: 70%;
-    }
-    p {
-      display: inline-block;
-      font-size: 1rem;
-      margin: 0;
-      @media #{$small-query} {
-        width: 100%;
-        text-align: center;
-      }
-    }
-    .nav-small {
-      margin-top: 0;
+  p {
+    display: inline-block;
+    @media #{$small-query} {
+      width: 100%;
+      text-align: center;
     }
   }
+  nav {
+    display: inline-block;
+    float: right;
+    a {
+      margin-left: .875em;
+    }
+    @media #{$small-query} {
+      width: 100%;
+      display: block;
+      text-align: center;
+      margin-top: 1em;
+    }
+  }
+
+  // hovers for icons
+  .fa-envelope:hover {color: #98DDD9;}
+  .fa-file:hover {color: #E0A3AC;}
+  .fa-linkedin:hover {color: #2469A3;}
+  .fa-github-alt:hover {color: $purple;}
 }
