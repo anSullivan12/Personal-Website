@@ -2,16 +2,13 @@
 $slate: #333;
 $bkg: #DDD;
 $white: #fff;
-$orange: #F25425; // one of the main colors
+$coral: #EC6363; // one of the main colors
 $purple: #3f2e4a; // one of the main colors
 $font-color: #{$slate};
 $border-color: #777; // currently dove gray
 
 // fonts
-$serif: "Georgia", serif;
 $sans-serif: "Raleway", Helvetica, Arial, sans-serif;
-$monospace: "Courier", monospace;
-$font-stack: 'Raleway', Helvetica, Arial, sans-serif;
 
 // media queries
 $iphone5-width: 320px;

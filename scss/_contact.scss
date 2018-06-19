@@ -18,13 +18,13 @@
         margin: 1.5em 0 0 0;
       }
       input {
-        font-family: $font-stack;
+        font-family: $sans-serif;
         font-size: 1rem;
         margin: 0.5em 0 1em 0;
         padding: 1em;
         width: 100%;
         &:focus {
-          border-left: 5px solid $orange;
+          border-left: 5px solid $coral;
           outline: none;
         }
         &[type="submit"] {
@@ -32,7 +32,7 @@
           border: none;
           border-radius: 3px;
           color: $white;
-          font-family: $font-stack;
+          font-family: $sans-serif;
           font-size: 1rem;
           font-weight: 600;
           margin-top: 1.5em;
@@ -41,14 +41,14 @@
       textarea {
         border: none;
         display: block;
-        font-family: $font-stack;
+        font-family: $sans-serif;
         font-size: 1rem;
         height: 125px;
         margin: 0.5em 0 0 0;
         padding: 1em;
         width: 100%;
         &:focus {
-          border-left: 5px solid $orange;
+          border-left: 5px solid $coral;
           outline: none;
         }
       }
