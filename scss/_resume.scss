@@ -8,14 +8,12 @@
     float: left;
     width: 63%;
     h1 {
-      border-bottom: 1px solid $border-color;
       color: $purple;
       font-weight: 600;
       margin: 0 0 1em 0;
       width: 100%;
     }
     section {
-      border-bottom: 1px solid $border-color;
       margin-bottom: 1.2em;
       &:last-child {
         border-bottom: none;
