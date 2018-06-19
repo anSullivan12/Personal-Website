@@ -8,8 +8,19 @@ a {
   &.btn-primary {
     border: 2px solid $coral;
     display: block;
+    font-size: .9rem;
+    font-weight: 700;
+    letter-spacing: 1px;
     margin: 0 auto;
-    padding: 17px 13px;
+    padding: 17px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 8vw;
+    &:hover {
+      background-color: $coral;
+      color: $white;
+      text-decoration: none;
+    }
   }
 }
 
