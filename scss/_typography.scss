@@ -5,13 +5,26 @@ a {
   &:hover {
     text-decoration: underline;
   }
+  &.btn-primary {
+    border: 2px solid $coral;
+    display: block;
+    margin: 0 auto;
+    padding: 17px 13px;
+  }
 }
 
 h1 {
   color: $purple;
-  font-size: 1.75rem;
+  font-size: .75rem;
   font-weight: 600;
-  margin: 0;
+  margin: 30vh auto 3vh;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.subhead {
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 h2 {
