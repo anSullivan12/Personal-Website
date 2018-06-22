@@ -1,34 +1,65 @@
 // Homepage styles
-.bradsdeals,
-.crate,
-.tcm,
-.katherine,
-.trainsignal,
-.coffey {
-  width: 50%;
-  height: 5vh;
-}
-
-.bradsdeals {
-  background-color: #338296;
-}
-
-.crate {
-  background-color: #000;
-}
-
-.tcm {
-  background-color: #161C57;
-}
-
-.katherine {
-  background-color:#7D1112;
-}
-
-.trainsignal {
-  background-color: #2C58A1;
-}
-
-.coffey {
-  background-color: #64B140;
+.portfolio {
+  width: 100%;
+  .bradsdeals,
+  .crate,
+  .tcm,
+  .katherine,
+  .trainsignal,
+  .coffey {
+    float: left;
+    height: 30vh;
+    width: 50%;
+    img {
+      display: block;
+    }
+  }
+  .bradsdeals {
+    background-color: #338296;
+    img {
+      margin: 4rem auto 0;
+      width: 25%;
+    }
+  }
+  .crate {
+    background-color: #000;
+    img {
+      margin: 5.5rem auto 0;
+      width: 35%;
+    }
+  }
+  .tcm {
+    background-color: #161C57;
+    img {
+      margin: 5rem auto 0;
+    }
+  }
+  .katherine {
+    background-color:#7D1112;
+    img {
+      margin: 4rem auto 0;
+      width: 45%;
+    }
+  }
+  .trainsignal {
+    background-color: #2C58A1;
+    &:hover {
+      text-decoration: none;
+    }
+    .ts-logo {
+      color: $white;
+      font-size: 2rem;
+      font-weight: 700;
+      margin-top: 6rem;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+  .coffey {
+    background-color: #64B140;
+    img {
+      margin: 5rem auto 0;
+      width: 30%;
+    }
+  }
 }
