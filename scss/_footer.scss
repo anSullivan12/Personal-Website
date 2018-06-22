@@ -6,7 +6,11 @@ footer {
     display: block;
     text-align: center;
     a {
+      color: $mint;
       margin-left: .875em;
+      &:hover {
+        color: $coral;
+      }
     }
   }
   p {
@@ -15,10 +19,4 @@ footer {
     text-align: center;
     width: 100%;
   }
-
-  // hovers for icons
-  .fa-envelope:hover {color: $mint;}
-  .fa-file:hover {color: $mint;}
-  .fa-linkedin:hover {color: #2469A3;}
-  .fa-github-alt:hover {color: $purple;}
 }
