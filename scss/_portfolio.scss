@@ -1,6 +1,7 @@
 // Homepage styles
 .portfolio {
   width: 100%;
+
   .bradsdeals,
   .crate,
   .tcm,
@@ -10,42 +11,57 @@
     float: left;
     height: 30vh;
     width: 50%;
+
     img {
       display: block;
     }
+
+    &:hover {
+      background-color: $coral;
+    }
   }
+
   .bradsdeals {
-    background-color: #338296;
+    background-color: $bradsdeals;
     img {
       margin: 4rem auto 0;
       width: 25%;
     }
   }
+
   .crate {
-    background-color: #000;
+    background-color: $crateandbarrel;
+
     img {
       margin: 5.5rem auto 0;
       width: 35%;
     }
   }
+
   .tcm {
-    background-color: #161C57;
+    background-color: $tcm;
+
     img {
       margin: 5rem auto 0;
     }
   }
+
   .katherine {
-    background-color:#7D1112;
+    background-color: $katherine;
+
     img {
       margin: 4rem auto 0;
       width: 45%;
     }
   }
+
   .trainsignal {
-    background-color: #2C58A1;
+    background-color: $trainsignal;
+
     &:hover {
       text-decoration: none;
     }
+
     .ts-logo {
       color: $white;
       font-size: 2rem;
@@ -55,8 +71,10 @@
       text-transform: uppercase;
     }
   }
+
   .coffey {
-    background-color: #64B140;
+    background-color: $coffey;
+
     img {
       margin: 5rem auto 0;
       width: 30%;
