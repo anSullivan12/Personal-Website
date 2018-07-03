@@ -1,0 +1,54 @@
+.about {
+  padding: 15vh 0 8vh 5%;
+
+  p {
+    margin: 8vh 14rem;
+  }
+
+  img {
+    border-radius: 50%;
+    float: left;
+    width: 15%;
+  }
+}
+
+.resume {
+  margin: 0 auto;
+  width: 50%;
+
+  .skill {
+    background-color: $mint;
+    border-radius: 6px;
+    margin: 2vh auto;
+    width: 100%;
+
+    div {
+      background-color: $purple;
+      border-radius: 6px;
+      color: $white;
+      padding: 15px 8px;
+    }
+  }
+
+  .career,
+  .education,
+  .volunteering {
+    margin-top: 10vh;
+
+    p {
+      font-size: 1rem;
+      margin-bottom: .2rem;
+    }
+
+    .job {
+      margin: 0 0 5vh;
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      .title {
+        font-weight: 600;
+      }
+    }
+  }
+}
