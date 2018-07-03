@@ -1,56 +1,62 @@
 @import 'parsley';
 
 .contact {
-  margin: 65px auto 0 auto;
+  margin: 65px auto 0;
   width: 58%;
+
   @media #{$medium-query} {
     width: 70%;
   }
+
   form {
     margin: 0 auto;
     width: 100%;
-    .form-content {
-      margin-top: 2.5em;
+
+    label {
+      color: $coral;
+      display: block;
+      font-weight: 600;
+      margin: 1.5em 0 0;
+    }
+
+    input {
+      border: 1px solid $border-color;
+      font-family: $sans-serif;
+      font-size: 1rem;
+      margin: 0.5em 0 1em;
+      padding: 1em;
       width: 100%;
-      label {
-        color: $font-color;
-        display: block;
-        margin: 1.5em 0 0 0;
+
+      &:focus {
+        border-left: 5px solid $coral;
+        outline: none;
       }
-      input {
-        font-family: $sans-serif;
-        font-size: 1rem;
-        margin: 0.5em 0 1em 0;
-        padding: 1em;
-        width: 100%;
-        &:focus {
-          border-left: 5px solid $coral;
-          outline: none;
-        }
-        &[type="submit"] {
-          background-color: $purple;
-          border: none;
-          border-radius: 3px;
-          color: $white;
-          font-family: $sans-serif;
-          font-size: 1rem;
-          font-weight: 600;
-          margin-top: 1.5em;
-        }
-      }
-      textarea {
+
+      &[type="submit"] {
+        background-color: $purple;
         border: none;
-        display: block;
+        border-radius: 3px;
+        color: $white;
         font-family: $sans-serif;
         font-size: 1rem;
-        height: 125px;
-        margin: 0.5em 0 0 0;
-        padding: 1em;
-        width: 100%;
-        &:focus {
-          border-left: 5px solid $coral;
-          outline: none;
-        }
+        font-weight: 600;
+        margin-top: 1.5em;
+      }
+    }
+
+    textarea {
+      border: 1px solid $border-color;
+      display: block;
+      font-family: $sans-serif;
+      font-size: 1rem;
+      height: 125px;
+      margin: 0.5em 0 0;
+      padding: 1em;
+      width: 100%;
+
+      &:focus {
+        border-left: 5px solid $coral;
+        outline: none;
       }
     }
   }
