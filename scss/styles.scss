@@ -17,6 +17,18 @@ body {
   font-size: 16px;
 }
 
+header {
+  width: 100%;
+
+  h1.branding {
+    color: $coral;
+    font-size: .75rem;
+    margin: 3vh 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
 .wrapper {
   margin: 0 auto;
   width: 90%;
