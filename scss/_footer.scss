@@ -2,9 +2,11 @@ footer {
   margin-top: 100px;
   height: 150px;
   padding-top: 50px;
+
   nav {
     display: block;
     text-align: center;
+
     a {
       color: $mint;
       margin-left: .875em;
@@ -13,6 +15,7 @@ footer {
       }
     }
   }
+
   p {
     font-size: .75rem;
     margin-top: 1.5rem;

@@ -60,12 +60,6 @@ h3 {
 h4 {
   color: $white;
   font-size: 1.625rem;
-  @media #{$medium-query} {
-    margin-top: .5em;
-    width: 100%;
-    text-align: center;
-    display: block;
-  }
 }
 
 p {
