@@ -1,27 +1,41 @@
-html {
-  font-size: 16px;
-  @media #{$medium-query} {
-    font-size: 18px;
-  }
-  @media #{$small-query} {
-    font-size: 22px;
-  }
-}
-
 a {
-  color: $orange;
+  color: $coral;
   font-weight: 600;
   text-decoration: none;
   &:hover {
     text-decoration: underline;
   }
+  &.btn-primary {
+    border: 2px solid $coral;
+    display: block;
+    font-size: .9rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    padding: 17px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 8vw;
+    &:hover {
+      background-color: $coral;
+      color: $white;
+      text-decoration: none;
+    }
+  }
 }
 
 h1 {
-  color: $purple;
-  font-size: 1.75rem;
+  color: $coral;
+  font-size: .75rem;
   font-weight: 600;
-  margin: 0;
+  margin: 30vh auto 3vh;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.subhead {
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 h2 {
@@ -46,12 +60,6 @@ h3 {
 h4 {
   color: $white;
   font-size: 1.625rem;
-  @media #{$medium-query} {
-    margin-top: .5em;
-    width: 100%;
-    text-align: center;
-    display: block;
-  }
 }
 
 p {

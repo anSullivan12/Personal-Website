@@ -1,0 +1,89 @@
+// Homepage styles
+.portfolio {
+  width: 100%;
+
+  .bradsdeals,
+  .crate,
+  .tcm,
+  .katherine,
+  .trainsignal,
+  .coffey {
+    float: left;
+    height: 30vh;
+    width: 50%;
+
+    img {
+      display: block;
+    }
+
+    &:hover {
+      background-color: $coral;
+    }
+  }
+
+  .bradsdeals {
+    background-color: $bradsdeals;
+    img {
+      margin: 4rem auto 0;
+      width: 25%;
+    }
+  }
+
+  .crate {
+    background-color: $crateandbarrel;
+
+    img {
+      margin: 5.5rem auto 0;
+      width: 35%;
+    }
+  }
+
+  .tcm {
+    background-color: $tcm;
+
+    img {
+      margin: 5rem auto 0;
+    }
+  }
+
+  .katherine {
+    background-color: $katherine;
+
+    img {
+      margin: 4rem auto 0;
+      width: 45%;
+    }
+  }
+
+  .trainsignal {
+    background-color: $trainsignal;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    .ts-logo {
+      color: $white;
+      font-size: 2rem;
+      font-weight: 700;
+      margin-top: 6rem;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+
+  .coffey {
+    background-color: $coffey;
+
+    img {
+      margin: 5rem auto 0;
+      width: 30%;
+    }
+  }
+}
+
+// styling for portfolio pages
+.portfolio-content {
+  margin: 0 auto;
+  width: 75%;
+}
