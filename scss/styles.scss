@@ -21,8 +21,9 @@ header {
   width: 100%;
 
   h1.branding {
-    color: $coral;
-    font-size: .75rem;
+    color: $pale-orange;
+    font-family: $emphasis;
+    font-size: 1rem;
     margin: 3vh 0;
     text-align: center;
     text-transform: uppercase;
@@ -44,6 +45,9 @@ header {
 .intro {
   height: 65vh;
   width: 100%;
+  h1 {
+    font-family: $emphasis;
+  }
 }
 
 // 404 styling

@@ -9,7 +9,7 @@
     width: 100%;
 
     label {
-      color: $coral;
+      color: $pale-orange;
       display: block;
       font-weight: 600;
       margin: 1.5em 0 0;
@@ -24,18 +24,18 @@
       width: 100%;
 
       &:focus {
-        border-left: 5px solid $coral;
+        border-left: 5px solid $pale-orange;
         outline: none;
       }
 
       &[type="submit"] {
-        background-color: $purple;
+        background-color: $deep-ruby;
         border: none;
         border-radius: 3px;
         color: $white;
-        font-family: $sans-serif;
+        cursor: pointer;
+        font-family: $emphasis;
         font-size: 1rem;
-        font-weight: 600;
         margin-top: 1.5em;
       }
     }
@@ -51,7 +51,7 @@
       width: 100%;
 
       &:focus {
-        border-left: 5px solid $coral;
+        border-left: 5px solid $pale-orange;
         outline: none;
       }
     }
