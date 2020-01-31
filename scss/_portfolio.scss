@@ -1,5 +1,9 @@
 // Homepage styles
 .portfolio {
+  align-content: center;
+  align-items: stretch;
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
 
   .bradsdeals,
@@ -8,8 +12,7 @@
   .katherine,
   .trainsignal,
   .coffey {
-    float: left;
-    height: 30vh;
+    height: 220px;
     width: 50%;
 
     img {
