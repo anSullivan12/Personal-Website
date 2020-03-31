@@ -83,7 +83,7 @@
       width: 30%;
     }
   }
-  @media #{$medium-query} {
+  @media #{$small-query} {
     flex-direction: column;
     .bradsdeals,
     .crate,
