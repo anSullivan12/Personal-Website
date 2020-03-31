@@ -83,6 +83,40 @@
       width: 30%;
     }
   }
+  @media #{$medium-query} {
+    flex-direction: column;
+    .bradsdeals,
+    .crate,
+    .tcm,
+    .katherine,
+    .trainsignal,
+    .coffey {
+      width: 100%;
+    }
+    .bradsdeals img {
+      margin-top: 15%;
+      width: 80%;
+    }
+    .crate img {
+      margin-top: 23%;
+      width: 63%;
+    }
+    .tcm img {
+      margin-top: 22%;
+      width: 90%;
+    }
+    .katherine img {
+      margin-top: 21%;
+      width: 77%;
+    }
+    .trainsignal .ts-logo {
+      font-size: $base-font-size + 20;
+    }
+    .coffey img {
+      margin-top: 21%;
+      width: 60%;
+    }
+  }
 }
 
 // styling for portfolio pages
@@ -90,3 +124,4 @@
   margin: 0 auto;
   width: 75%;
 }
+
