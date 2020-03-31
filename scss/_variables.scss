@@ -1,14 +1,14 @@
 // New Colors
-$jungle-green: #1F271B;
-$deep-ruby: #80475E;
-$sea-green: #28AFB0;
-$grain-yellow: #F4D35E;
-$pale-orange: #EE964B;
+$jungle-green:    #1F271B;
+$deep-ruby:       #80475E;
+$sea-green:       #28AFB0;
+$grain-yellow:    #F4D35E;
+$pale-orange:     #EE964B;
 
 // colors
-$white: #FFF;
-$border-color: #CCC;
-$font-color: #{$jungle-green};
+$white:           #FFF;
+$border-color:    #CCC;
+$font-color:      #{$jungle-green};
 
 // company colors
 $bradsdeals:      #0E3651;
@@ -19,18 +19,15 @@ $trainsignal:     #2c58a1;
 $coffey:          #64b140;
 
 // fonts
-$sans-serif: 'Open Sans', sans-serif;
-$emphasis: 'Montserrat', sans-serif;
+$sans-serif:      'Open Sans', sans-serif;
+$emphasis:        'Montserrat', sans-serif;
+$base-font-size:  16px;
 
 // media queries
-$iphone5-width: 320px;
-$small-cutoff: 760px;
-$large-cutoff: 1100px;
+$iphone5-width:   320px;
+$small-cutoff:    760px;
+$large-cutoff:    1100px;
 
-$large-query: "only screen and (min-width: #{$large-cutoff + 1})";
-$medium-query: "only screen and (max-width: #{$large-cutoff})";
-$small-query: "only screen and (max-width: #{$small-cutoff})";
-$iphon5-query: "only and (max-width: #{$iphone5-width})";
-
-$large-to-small-query-range: "only screen and (min-width: #{$small-cutoff + 1})";
-$medium-query-range: "only screen and (min-width: #{$small-cutoff + 1}) and (max-width: #{$large-cutoff})";
+$large-query:     "only screen and (min-width: #{$large-cutoff + 1})";
+$medium-query:    "only screen and (max-width: #{$large-cutoff})";
+$small-query:     "only screen and (max-width: #{$small-cutoff})";
