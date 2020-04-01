@@ -394,6 +394,7 @@ header {
 
 .four-oh-four img {
   display: block;
-  margin: 5vh auto; }
+  margin: 5vh auto;
+  width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */
